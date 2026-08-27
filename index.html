@@ -206,7 +206,7 @@
                 
                 const wristY = landmarks[0].y;
                 
-                if (wristY > 0.85) {
+                if (wristY > 1) {
                     statusText.innerText = "判定範囲外";
                     lastHandState = -1;
                     continue;
